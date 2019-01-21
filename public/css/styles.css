@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: #72797c;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-style: inherit;
+    font-weight: normal;
+}
+
+.wancho{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 48px 0 48px;
+}
