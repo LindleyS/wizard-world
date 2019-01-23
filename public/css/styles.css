@@ -20,4 +20,9 @@ body {
     width: 100%;
     max-width: 1180px;
     padding: 0 48px 0 48px;
+    margin: 0 auto;
+}
+
+figure{
+    margin: 0;
 }
