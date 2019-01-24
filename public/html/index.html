@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="../css/styles.css">  
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/index.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css"/>
   
 
   <body>
@@ -39,7 +42,7 @@
                 <input class="search_input" type="text" name="" placeholder="Search by Google">
                 <a href="#" class="search_icon">
                   <figure>
-                    <img src="../assets/images/ic_search.svg" alt="search_icon" width="21" height= "21">
+                    <img src="../assets/icons/ic_search.svg" alt="search_icon" width="21" height= "21">
                   </figure>
                 </a>
             </div>
@@ -48,7 +51,7 @@
         </div>
       </nav>
     </header>
-    <div class="cover-page-cnt" style="background-image: url('../assets/images/img_home_background.png')">
+    <div class="cover-page-cnt">
       <div class="wancho">
 
         <div class="paragraph-cnt">
@@ -56,16 +59,88 @@
         </div>
 
         <div class="btn-cnt">
-          <button type="button" class="btn btn-outline-warning">VER TRAILER</button>
+          <a href="#" class="play_icon btn">
+            <figure>
+              <img src="../assets/icons/ic_play.svg" alt="play_icon" width="17" height= "17">
+            </figure>
+            <span class="btn-text">VER TRAILER</span>
+          </a>
         </div>
 
       </div> 
       
+      <div class="capa-cnt">
+        <figure>
+          <img src="../assets/images/img_rectangle.png" alt="capa" style="width: 100vw; height: 303px">
+        </figure>
+      </div>
+
     </div>
 
-    <script type="text/javascript" src="../js/index.js"></script>
+
+    <div class="character-cnt">
+
+      <div class="wancho">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Personajes</h5>
+            <h6 class="card-subtitle">EL MUNDO MÁGICO EN NEW YORK</h6>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="actor-cnt">
+        <div class="actor">
+          Actor1
+        </div>
+        <div>your content</div>
+        <div>your content</div>
+    </div>
+
+
+
+
+
+    
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/slick/slick.min.js"></script> 
     <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+
+
+    <script type="text/javascript">
+      $('.actor-cnt').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+
+    </script>
+
   </body>
 
 </html>
