@@ -76,7 +76,7 @@
 }
 
 .play_icon figure{
-    padding-right: 8px;;
+    padding-right: 8px;
 }
 
 .capa-cnt { 
@@ -106,6 +106,7 @@
 .card-body{
     background-color: black;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .card-title{
@@ -123,11 +124,4 @@
     font-family: Arial;
     line-height: 64px;
     letter-spacing: 0px;
-}
-
-.actor-cnt{
-    width: 100vw;
-    height: 456px;
-    position: relative;
-
 }

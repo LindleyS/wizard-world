@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/styles.css">  
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/carousel.css">
 
   <link rel="stylesheet" type="text/css" href="../css/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css"/>
@@ -86,17 +87,68 @@
             <h5 class="card-title">Personajes</h5>
             <h6 class="card-subtitle">EL MUNDO MÁGICO EN NEW YORK</h6>
           </div>
-       </div>
+        </div>
+
+        <div class="carousel-cnt">
+
+          <div class="actor-cnt">
+            <div class="actor-image">
+              <figure>
+                <img src="../assets/images/img_actor1.svg" alt="capa" style="width: 324px; height: 456px">
+              </figure>
+              <span class="actor-text">Credence Barebone</span>
+            </div>
+          </div>
+  
+    
+          <div class="actor-cnt">
+            <div class="actor-image">
+              <figure>
+                <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+              </figure>
+              <span class="actor-text">Newt Scamander</span>
+            </div>
+          </div>
+
+    
+          <div class="actor-cnt">
+            <div class="actor-image">
+              <figure>
+                <img src="../assets/images/img_actor3.svg" alt="capa" style="width: 324px; height: 456px">
+              </figure>
+              <span class="actor-text">Tina Goldstein</span>
+            </div>
+          </div>
+
+          <div class="actor-cnt">
+            <div class="actor-image">
+              <figure>
+                <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+              </figure>
+              <span class="actor-text">Newt 4</span>
+            </div>
+          </div>
+
+          <div class="actor-cnt">
+            <div class="actor-image">
+              <figure>
+                <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+              </figure>
+              <span class="actor-text">Newt 5</span>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+
+      
+
+
+
     </div>
 
-    <div class="actor-cnt">
-        <div class="actor">
-          Actor1
-        </div>
-        <div>your content</div>
-        <div>your content</div>
-    </div>
+
 
 
 
@@ -113,30 +165,13 @@
 
 
     <script type="text/javascript">
-      $('.actor-cnt').slick({
+      $('.carousel-cnt').slick({
+        dots: false,
+        infinite: true,
         centerMode: true,
-        centerPadding: '60px',
         slidesToShow: 3,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 3
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
-            }
-          }
-        ]
+        slidesToScroll: 2,
+        centerPadding: '0px'
       });
 
     </script>
