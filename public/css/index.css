@@ -91,7 +91,7 @@
 
 .character-cnt{
     width: 100vw;
-    height: 825px;
+    height: 686px;
     background-color: black;
     background-size: cover;
     background-position: center 21%;
@@ -112,7 +112,7 @@
 .card-title{
     color: white;
     font-size: 45px;
-    font-family: Avenir-regular;
+    font-family: 'Avenir-Regular';
     line-height: 64px;
     letter-spacing: 0px;
     margin-bottom: -1.25rem;
@@ -124,4 +124,104 @@
     font-family: Arial;
     line-height: 64px;
     letter-spacing: 0px;
+}
+
+.section3-page-cnt{
+    width: 100vw;
+    height: 991px;
+    background-size: cover;
+    background-position: center 21%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.image-background{
+    width: 865px;
+    height: 991px;
+    background-size: cover;
+    background-position: center 21%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -310px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+.section3-page-cnt .capa-cnt { 
+    width: 100vw;
+    height: 991px;
+    background-color: rgba(18, 16, 16, 1);
+    background-position: center 21%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.98;
+
+}
+
+.section3-page-cnt-cnt .wancho{
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end; /* Alinear a con respecto al eje X */
+    align-items: flex-start;   /* Alinear a con respecto al eje Y */
+    padding-bottom: 100px;
+}
+
+.card-story{
+    height: 128px;
+    margin-top: 40px;
+    width: 471px;
+    position: absolute;
+}
+
+.card-story .card-title{
+    color: white;
+    font-size: 45px;
+    font-family: Avenir-regular;
+    line-height: 64px;
+    letter-spacing: 0px;
+    margin-bottom: -1.25rem;
+    width: 471px;
+}
+
+.story-cnt {
+    width: 591px;
+    height: 765px;
+    margin-bottom: 11px;
+    margin-top: 176px;
+    position: absolute;
+}
+
+.story-cnt .paragraph{
+    text-align: left!important;
+    color: white;
+    font-size: 18px;
+    font-family: 'Avenir-regular';
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-right: 71px;
+}
+
+.story-cnt .btn-cnt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.story-image{
+    width: 560px;
+    height: 728px;
+    margin-top: 58px;
+    position: absolute;
+    right: 0;
+}
+
+.more_icon figure{
+    padding-right: 8px;
 }
