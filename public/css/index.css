@@ -111,7 +111,7 @@
 
 .card-title{
     color: white;
-    font-size: 45px;
+    font-size: 55px;
     font-family: 'Avenir-Regular';
     line-height: 64px;
     letter-spacing: 0px;
@@ -120,10 +120,11 @@
 
 .card-subtitle{
     color: rgba(255, 204, 51, 1);
-    font-size: 22px;
+    font-size: 29px;
     font-family: Arial;
     line-height: 64px;
     letter-spacing: 0px;
+    margin-top: 6px;
 }
 
 .section3-page-cnt{
@@ -162,7 +163,7 @@
 
 }
 
-.section3-page-cnt-cnt .wancho{
+.section3-page-cnt .wancho{
     height: 100%;
     display: flex;
     flex-flow: column wrap;
@@ -174,25 +175,27 @@
 .card-story{
     height: 128px;
     margin-top: 40px;
-    width: 471px;
+    width: 533px;
     position: absolute;
+    left: 48px;
+    top: 0;
 }
 
 .card-story .card-title{
     color: white;
-    font-size: 45px;
+    font-size: 55px;
     font-family: Avenir-regular;
     line-height: 64px;
     letter-spacing: 0px;
     margin-bottom: -1.25rem;
-    width: 471px;
+    width: 533px;
 }
 
 .story-cnt {
     width: 591px;
-    height: 765px;
+    height: 717px;
     margin-bottom: 11px;
-    margin-top: 176px;
+    margin-top: 8px;
     position: absolute;
 }
 
@@ -215,11 +218,12 @@
 }
 
 .story-image{
-    width: 560px;
-    height: 728px;
-    margin-top: 58px;
+    width: 457px;
+    height: 585px;
+    margin-top: 216px;
     position: absolute;
-    right: 0;
+    right: 48px;
+    top: 0;
 }
 
 .more_icon figure{
