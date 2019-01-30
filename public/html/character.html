@@ -59,81 +59,99 @@
     
     <div class="character-page-cnt">
         
-        <div class="character-cnt" id="character-cnt">
+      <div class="character-cnt" id="character-cnt">
 
-            <div class="wancho">
-                <div class="card" id="card">
-                    <div class="card-body" id="character-title">
-                        <h5 class="card-title">Personajes</h5>
-                        <h6 class="card-subtitle">EL MUNDO MÁGICO EN NEW YORK</h6>
-                    </div>
-                </div>
+        <div class="wancho">
+          <div class="card" id="card">
+              <div class="card-body" id="character-title">
+                  <h5 class="card-title">Personajes</h5>
+                  <h6 class="card-subtitle">EL MUNDO MÁGICO EN NEW YORK</h6>
+              </div>
+          </div>
         
-                <div class="carousel-cnt">
-        
-                <div class="actor-cnt">
-                    <div class="actor-image">
-                    <figure>
-                        <img src="../assets/images/img_actor1.svg" alt="capa" style="width: 324px; height: 456px">
-                    </figure>
-                    <span class="actor-text">Credence Barebone</span>
-                    </div>
-                </div>
-        
-            
-                <div class="actor-cnt">
-                    <div class="actor-image">
-                    <figure>
-                        <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
-                    </figure>
-                    <span class="actor-text">Newt Scamander</span>
-                    </div>
-                </div>
-        
-            
-                <div class="actor-cnt">
-                    <div class="actor-image">
-                    <figure>
-                        <img src="../assets/images/img_actor3.svg" alt="capa" style="width: 324px; height: 456px">
-                    </figure>
-                    <span class="actor-text">Tina Goldstein</span>
-                    </div>
-                </div>
-        
-                <div class="actor-cnt">
-                    <div class="actor-image">
-                    <figure>
-                        <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
-                    </figure>
-                    <span class="actor-text">Newt 4</span>
-                    </div>
-                </div>
-        
-                <div class="actor-cnt">
-                    <div class="actor-image">
-                    <figure>
-                        <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
-                    </figure>
-                    <span class="actor-text">Newt 5</span>
-                    </div>
-                </div>
+          <div class="carousel-cnt">
+  
+            <div class="actor-cnt">
+                <div class="actor-image">
+                <figure>
+                    <img src="../assets/images/img_actor1.svg" alt="capa" style="width: 324px; height: 456px">
+                </figure>
+                <span class="actor-text">Credence Barebone</span>
                 </div>
             </div>
-        
+
+            <div class="actor-cnt">
+                <div class="actor-image">
+                <figure>
+                    <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+                </figure>
+                <span class="actor-text">Newt Scamander</span>
+                </div>
+            </div>
+    
+            <div class="actor-cnt">
+                <div class="actor-image">
+                <figure>
+                    <img src="../assets/images/img_actor3.svg" alt="capa" style="width: 324px; height: 456px">
+                </figure>
+                <span class="actor-text">Tina Goldstein</span>
+                </div>
+            </div>
+    
+            <div class="actor-cnt">
+                <div class="actor-image">
+                <figure>
+                    <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+                </figure>
+                <span class="actor-text">Newt 4</span>
+                </div>
+            </div>
+    
+            <div class="actor-cnt">
+                <div class="actor-image">
+                <figure>
+                    <img src="../assets/images/img_actor2.svg" alt="capa" style="width: 324px; height: 456px">
+                </figure>
+                <span class="actor-text">Newt 5</span>
+                </div>
+            </div>
+          </div>
+
         </div>
 
-    <div class="capa-cnt">
-        <figure>
-        <img src="../assets/images/img_rectangle.png" alt="capa" style="width: 100vw; height: 303px">
-        </figure>
-    </div>
+      </div>
 
+      <div class="capa-cnt">
+          <figure>
+          <img src="../assets/images/img_rectangle.png" alt="capa" style="width: 100vw; height: 303px">
+          </figure>
+      </div>
     </div>
 
     <div class="section1-page-cnt">
-      <div class="capa-cnt">
-      </div>      
-    </div> 
+        <div class="capa-cnt">
+        </div>      
+    </div>
+    
+
+    <div class="image-cnt">
+      <div class="image-character" style="background-image: url('../assets/images/img-credence-personaje.png')">
+      </div>
+
+      <div class="image-character" style="background-image: url('../assets/images/img-newt-personaje.png')">
+      </div>
+
+      <div class="image-character"style="background-image: url('../assets/images/img-tina-personaje.png')">
+      </div>
+
+      <div class="image-character" style="background-image: url('../assets/images/img-newt-personaje.png')">
+      </div>
+
+      <div class="image-character" style="background-image: url('../assets/images/img-newt-personaje.png')">
+      </div>
+
+    </div>
+
 
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="../js/jquery-migrate-1.4.1.min.js"></script>
@@ -150,7 +168,17 @@
         centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 2,
-        centerPadding: '0px'
+        centerPadding: '0px',
+        focusOnSelect: true,
+        asNavFor: '.image-cnt'
+      });
+
+      $('.image-cnt').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.carousel-cnt'
       });
 
     </script>

@@ -61,3 +61,22 @@
     border-color: transparent;
 
 }
+
+.image-cnt{ 
+    width: 100vw;
+    height: 839px;
+}
+
+.image-character{ 
+    width: 1280px;
+    height: 839px!important;
+    background-size: cover;
+}
+
+.image-cnt .slick-list{ 
+    margin-top: 0!important;
+}
+
+.image-cnt .slick-track{ 
+    padding-top: 0!important;
+}
