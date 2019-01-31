@@ -9,6 +9,28 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Avenir-Heavy';
+    src: url('../assets/fonts/Avenir-Heavy/Avenir-Heavy.eot');
+    src: url('../assets/fonts/Avenir-Heavy/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Avenir-Heavy/Avenir-Heavy.woff') format('woff'),
+        url('../assets/fonts/Avenir-Heavy/Avenir-Heavy.ttf') format('truetype'),
+        url('../assets/fonts/Avenir-Heavy/Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('../assets/fonts/Avenir-Medium/Avenir-Medium.eot');
+    src: url('../assets/fonts/Avenir-Medium/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Avenir-Medium/Avenir-Medium.woff') format('woff'),
+        url('../assets/fonts/Avenir-Medium/Avenir-Medium.ttf') format('truetype'),
+        url('../assets/fonts/Avenir-Medium/Avenir-Medium.svg#Avenir-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
 .event-page-cnt{
     width: 100vw;
     height: 839px;
@@ -84,7 +106,7 @@
     text-align: left!important;
     color: white;
     font-size: 23px;
-    font-family: 'Avenir-regular';
+    font-family: 'Avenir-Medium';
     line-height: 37px;
     letter-spacing: 1.5px;
     margin-top: 30px;
@@ -95,7 +117,7 @@
 .card-story2 {
     height: 128px;
     margin-top: 40px;
-    width: 752px;
+    width: 784px;
     position: absolute;
     left: 48px;
     top: 0;
@@ -104,9 +126,9 @@
 .card-story2 .card-title{
     color: white;
     font-size: 55px;
-    font-family: Avenir-regular;
+    font-family: 'Avenir-Heavy';
     line-height: 64px;
     letter-spacing: 0px;
     margin-bottom: -1.25rem;
-    width: 752px;
+    width: 784px;
 }
