@@ -37,7 +37,7 @@
     background-size: cover;
     background-position: center 21%;
     background-repeat: no-repeat;
-    background-image: url('../assets/images/img_home_background.png');
+    background-image: url('../assets/images/img_home_background.jpg');
     position: relative;
 }
 
@@ -224,7 +224,7 @@
 
 .story-cnt .paragraph{
     text-align: left!important;
-    color: white;
+    color: darkgrey;
     font-size: 18px;
     font-family: 'Avenir-regular';
     line-height: 34px;

@@ -37,10 +37,13 @@
     background-size: cover;
     background-position: center 21%;
     background-repeat: no-repeat;
-    background-image: url('../assets/images/img_event_background.png');
+    background-image: url('../assets/images/img_event_background.jpg');
     position: relative;
 }
 
+.event-page-cnt .wancho{
+    padding-top: 130px;
+}
 
 .navbar-collapse{
     display: flex;
@@ -96,7 +99,7 @@
 .story2-image{
     width: 395px;
     height: 568px;
-    margin-top: 228px;
+    margin-top: 262px;
     position: absolute;
     right: 48px;
     top: 0;
@@ -104,19 +107,19 @@
 
 .story2-cnt .paragraph{
     text-align: left!important;
-    color: white;
+    color: darkgrey;
     font-size: 23px;
     font-family: 'Avenir-Medium';
     line-height: 37px;
     letter-spacing: 1.5px;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-right: 24px;
 }
 
 
 .card-story2 {
     height: 128px;
-    margin-top: 40px;
+    margin-top: 70px;
     width: 784px;
     position: absolute;
     left: 48px;
@@ -131,4 +134,16 @@
     letter-spacing: 0px;
     margin-bottom: -1.25rem;
     width: 784px;
+}
+
+#event{
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+#event-title{
+    background-color: transparent;
+    border-color: transparent;
+
 }
